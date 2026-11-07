@@ -32,7 +32,7 @@ Snow falls over everything on your screen and **piles up on your windows, your d
 
 1. Download Snowcat: click the green **Code** button at the top of this page, then **Download ZIP**, and unzip it.
    (Or with git: `git clone` this repository.)
-2. Open a terminal in the Snowcat folder and install the two libraries it needs:
+2. Open a powershell window in the Snowcat folder and install the two libraries it needs:
    ```
    pip install -r requirements.txt
    ```
