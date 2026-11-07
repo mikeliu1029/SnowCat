@@ -32,15 +32,19 @@ Snow falls over everything on your screen and **piles up on your windows, your d
 
 1. Download Snowcat: click the green **Code** button at the top of this page, then **Download ZIP**, and unzip it.
    (Or with git: `git clone` this repository.)
-2. Open a powershell window in the Snowcat folder and install the two libraries it needs:
+2. Open PowerShell and type in the project folder:
+   ```
+   cd "$HOME\Downloads\SnowCat-main\SnowCat-main"
+   ```
+3. Install the two libraries it needs:
    ```
    pip install -r requirements.txt
    ```
-3. Start it:
+4. Start it:
    ```
    python snowcat.py
    ```
-4. Optional: add a Snowcat icon to your desktop, so next time you can just double-click it:
+5. Optional: add a Snowcat icon to your desktop, so next time you can just double-click it:
    ```
    python make_shortcut.py
    ```
