@@ -38,16 +38,17 @@ Snow falls over everything on your screen and **piles up on your windows, your d
    ```
 3. Install the two libraries it needs:
    ```
-   pip install -r requirements.txt
+   py -m pip install -r requirements.txt
    ```
 4. Start it:
    ```
-   python snowcat.py
+   py snowcat.py
    ```
 5. Optional: add a Snowcat icon to your desktop, so next time you can just double-click it:
    ```
-   python make_shortcut.py
+   py make_shortcut.py
    ```
+6. After this setup, you can launch it anytime using snowcat.py or the desktop icon
 
 ## How to play
 
